@@ -1,14 +1,16 @@
 {
   "name": "kankor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Kankor Results System - A web application for checking Afghanistan's Ministry of Higher Education university entrance exam results",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0"
   }
 }

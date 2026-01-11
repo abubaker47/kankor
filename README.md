@@ -38,12 +38,7 @@ cd kankor
 npm install
 ```
 
-3. Install MongoDB driver (if not already included):
-```bash
-npm install mongodb
-```
-
-4. Make sure MongoDB is running on your local machine:
+3. Make sure MongoDB is running on your local machine:
 ```bash
 # Start MongoDB service
 mongod
@@ -58,6 +53,10 @@ mongoimport --db kankor --collection kankor_res --type csv --headerline --file k
 ## Usage
 
 1. Start the server:
+```bash
+npm start
+```
+Or:
 ```bash
 node server.js
 ```
