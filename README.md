@@ -44,7 +44,7 @@ npm install
 mongod
 ```
 
-5. Import the Kankor data into MongoDB:
+4. Import the Kankor data into MongoDB:
 ```bash
 # Import the CSV data into MongoDB
 mongoimport --db kankor --collection kankor_res --type csv --headerline --file kankor.csv
